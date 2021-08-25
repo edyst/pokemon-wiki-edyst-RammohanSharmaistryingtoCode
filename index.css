@@ -1,198 +1,213 @@
-    body{
-        color:#7f7c7d;
-        font-size: 16px;
-        font-family: Avenir-Next,Roboto,sans-serif;
-    }
-    h1{
-        font-size: 90px;
-    }
-    
-    nav li{
-        display: inline;
-    }
-    .navlist{
-    
-        display:flex;
-        justify-content:space-between;
-    }
-    .rtflt div{
-        float:right;
-    }
-    ul{
-        list-style:none;
-    }
-    a{
-        text-decoration: none;
-        color:inherit;
-        
-    }
-    .homepage{
-        background:black;
-        background-image: url(https://i.imgur.com/ksqOx5F.jpg);
-        color:white;  
-    }
-    .hp_layout{
-        margin :0% 10%;
-        max-width: 70%;
-        padding : 10% 0%;
-    }
-    .overlay{
-    background-color:#000000b3;
-    }
-    h3{
-        font-size: 33px;
-    }
+body{
+    color:#7f7c7d;
+    font-size: 16px;
+    font-family: Avenir-Next,Roboto,sans-serif;
+}
+h1{
+    font-size: 90px;
+}
 
-    .homepage p{
-        display: block;
-        text-decoration:none;
-        color:white;
-        padding: 20px;
-    }
+nav li{
+    display: inline;
+}
+.navlist{
 
-    .bt1{
-        background-color:#4992ca;
+    display:flex;
+    justify-content:space-between;
+}
+.rtflt div{
+    float:right;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+    
+}
+.homepage{
+    background:black;
+    background-image: url(https://i.imgur.com/ksqOx5F.jpg);
+    color:white;  
+}
+.hp_layout{
+    margin :0% 10%;
+    max-width: 70%;
+    padding : 10% 0%;
+}
+.overlay{
+background-color:#000000b3;
+}
+h3{
+    font-size: 33px;
+}
+
+.homepage p{
+    display: block;
+    text-decoration:none;
+    color:white;
+    padding: 20px;
+}
+
+.bt1{
+    background-color:#4992ca;
+max-width:20%;
+}
+.bt2{
+    background:none;
     max-width:20%;
-    }
-    .bt2{
-        background:none;
-        max-width:20%;
-        border: 2px solid #fff;
-    }
+    border: 2px solid #fff;
+}
 
-    #white-curve{
-        background:white;
-        border-radius:15px;
-        color:black;
-        padding:15px;
-    }
-    .pocketmonsters{
-        color:white;
-        background:#4992ca;
-        text-align:center;
-    }
-     h2{
-        font-size: 45px;
-    }
-    .pocketmonsters h4{
-        font-size:30px;
-    }
-    .pm_layout{
-        margin:0% 10%;  
-    }
-    .pm_flex{
-        display:flex;
-    }
-    .statistics{
-        text-align: center;
-        color:black;
-    }
-    .pokofyear{
-        font-weight: 100;
-  
-    }
-    .pokofyear h3{
-        color:black;
-        text-align: center;
-    }
-    .roundpics img{
-        height: 250px;
-        width: 250px;
-        border-radius: 50%;
-    }
-    .logopics img{
-        height:250px;
-        width: 75px;
-    }
-    .pokofyearflex{
-        display:flex;
-    }
+#white-curve{
+    background:white;
+    border-radius:15px;
+    color:black;
+    padding:15px;
+}
+.pocketmonsters{
+    color:white;
+    background:#4992ca;
+    text-align:center;
+}
+ h2{
+    font-size: 45px;
+}
+.pocketmonsters h4{
+    font-size:30px;
+}
+.pm_layout{
+    margin:0% 10%;  
+}
+.pm_flex{
+    display:flex;
+}
+.statistics{
+    text-align: center;
+    color:black;
+}
+.pokofyear{
+    font-weight: 100;
 
-    footer{
-        background-color: #222222;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding: 10px 35px;
-        color:white;
-        text-align:center;
-    }
-    .ftcolor{
-        color:#aaa;
-    }
-    .knowmore{
-        background-color:#4992ca;
-        color:white;
-        text-align: center;
-        padding:5px 10px 40px 10px;
-    }
-    .knowmore .bt2{
-        color:white;
-        width:10%;
-        padding:10px;
-    }
-    .logos{
-        text-align: center;
-    }
-    .logosflex{
-        display:flex;
-        justify-content: center;
-        flex-wrap:wrap;
-    }
-    .logos img{
-        width:150px;
-        height:50px;
-    }
-    .logos p{
-        color:black;
-    }
-    .designers{
-        background-color: #4992ca;
-        color:white;
-        text-align: center;
-        padding-top: 10px;
-    }
-    .designflex{
-        display:flex;
-        margin: 0 10%;
-    }
-    .designers img{
-        border-radius: 50%;
-        height: 200px;
-        width:200px;
-    }
-    .wantto{
-        background-color:#424242;
-        color:white;
-        text-align: center;
-        padding:5px 10px 40px 10px;
-    }
-    .wantto button{
-        color:white;
-        width:10%;
-        padding :10px;
-    }
-    .pokeimg img{
-        border-radius: 50%;
-        height: 200px;
-        width:200px;
-    }
-    .trainers{
-        background-color: #4992ca;
-        color:white;
-        text-align:center;
-    }
-    .trainflex{
-        display:flex;
-        margin: 0 10%;
-        flex-flow: column;
-    }
-    .trainflex2{
-        display:flex;
-        margin: 0 10%;
-    }
-    .pokelogo img{
-        width:200px;
-        height:75px;
-    }
-    
+}
+.pokofyear h3{
+    color:black;
+    text-align: center;
+}
+.roundpics img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.logopics img{
+    height:250px;
+    width: 75px;
+}
+.pokofyear{
+    text-align: center;
+}
+.pokofyearflex{
+    display:flex;
+    flex-flow:column;
+}
+
+footer{
+    background-color: #222222;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 35px;
+    color:white;
+    text-align:center;
+}
+.ftcolor{
+    color:#aaa;
+}
+.knowmore{
+    background-color:#4992ca;
+    color:white;
+    text-align: center;
+    padding:5px 10px 40px 10px;
+}
+.knowmore .bt2{
+    color:white;
+    width:10%;
+    padding:10px;
+}
+.logos{
+    text-align: center;
+}
+.logosflex{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.logos img{
+    width:150px;
+    height:50px;
+}
+.logos p{
+    color:black;
+}
+.designers{
+    background-color: #4992ca;
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+}
+.designflex{
+    display:flex;
+    margin: 0 10%;
+}
+.designers img{
+    border-radius: 50%;
+    height: 200px;
+    width:200px;
+}
+.wantto{
+    background-color:#424242;
+    color:white;
+    text-align: center;
+    padding:5px 10px 40px 10px;
+}
+.wantto button{
+    color:white;
+    width:10%;
+    padding :10px;
+}
+.pokimg  {
+    border-radius: 50%;
+    height: 200px;
+    width:200px;
+}
+.trainers{
+    background-color: #4992ca;
+    color:white;
+    text-align:center;
+    font-weight: 100;
+}
+.trainflex{
+    display:flex;
+    margin: 0 10%;
+    flex-flow: column;
+    padding-top:  10px;
+}
+.trainflex2{
+    display:flex;
+    margin: 0 10%;
+}
+.pokelogo {
+    width:200px;
+    height:75px;
+}
+.pokeofyearflex2{
+    display:flex;
+    margin: 0 10%;
+}
+.qa{
+    background-color:#4992ca;
+    color:white;
+    padding:2% 10%;
+}
+
